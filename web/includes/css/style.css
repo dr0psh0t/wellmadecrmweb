@@ -1,0 +1,135 @@
+.person-icon
+{
+    background-image : url('../../includes/images/icons/icon-profile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.my-field-cls:hover, .my-field-cls label:hover {
+    cursor: pointer;
+}
+
+.crm
+{
+    background-image: url("../../includes/images/icons/crm_icon.png"); !important;
+    width : 90px; !important;
+    height: 90px; !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.joborder
+{
+    background-image: url("../../includes/images/icons/joborder_icon.png"); !important;
+    width : 90px; !important;
+    height: 90px; !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.contacts
+{
+    background-image : url("../../includes/images/icons/contacts.png") !important;
+    width : 90px !important;
+    height : 90px !important;
+    margin-right : auto !important;
+    margin-left : auto !important;
+}
+
+.company
+{
+    background-image : url("../../includes/images/icons/company.png") !important;
+    width : 90px !important;
+    height : 90px !important;
+    margin-right : auto !important;
+    margin-left : auto !important;
+}
+
+.customer
+{
+    background-image : url("../../includes/images/icons/person_pin.png") !important;
+    width : 90px !important;
+    height : 90px !important;
+    margin-right : auto !important;
+    margin-left : auto !important;
+    border-radius : 0.2em !important;
+}
+
+.search
+{
+    background-image : url("../../includes/images/icons/search-icon.png") !important;
+    width : 80px !important;
+    height : 80px !important;
+    margin-right : auto !important;
+    margin-left : auto !important;
+}
+
+.x-button {
+    border-radius: 0.5em !important;
+}
+
+.rounded .x-form-text-wrap, .rounded .x-form-trigger-wrap {
+    border-radius: 7px;
+}
+
+.bigBtn
+{
+    position : absolute;
+    bottom : 7px !important;
+    left : 0% !important;
+    right : 0% !important;
+    text-align : center !important;
+    font-size: 150%;
+}
+
+.treecolor
+{
+    background-color: #32404e;
+}
+
+/* ======= SLIDER MENU ========= */
+
+body
+{
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav
+{
+    /*height: 90%;*/
+    height : 450px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5fa2dd;
+    //opacity : 0.5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*padding-top: 100px;*/
+}
+
+.sidenav a
+{
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus
+{
+    color: #000000;
+}
+
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
