@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wellmadecrm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="wellmadecrm/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wellmadecrm" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/dagondon/jar lib/commons-codec-1.10.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/commons-lang3-3.5.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/core-3.3.1.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/googleauth.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/javase-3.1.1-20150211.225955-15.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/joda-time-2.9.7.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/json-simple-1.1.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/mariadb-java-client-1.5.7.jar" />
+          <element id="file-copy" path="E:/dagondon/jar lib/gcm.server.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/commons-codec-1.10.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/commons-lang3-3.5.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/core-3.3.1.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/googleauth.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/javase-3.1.1-20150211.225955-15.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/joda-time-2.9.7.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/json-20190722.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/mariadb-java-client-1.5.7.jar" />
+          <element id="file-copy" path="D:/ddagondon/jar lib/gcm.server.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/commons-codec-1.10.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/commons-lang3-3.5.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/core-3.3.1.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/googleauth.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/javase-3.1.1-20150211.225955-15.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/joda-time-2.9.7.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/json-20190722.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/mariadb-java-client-1.5.7.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/gcm.server.jar" />
+          <element id="file-copy" path="D:/daryll/jarlib/sqlite-jdbc-3.34.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
