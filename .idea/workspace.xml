@@ -7,440 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a4be21-5b92-4da0-887b-31893fc914bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/GetNotifications.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/ProcessQr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/Register.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/dbutils/InitializeDb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/dbutils/TestDb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/firebase/GetDeviceTokens.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/firebase/SaveDeviceToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/firebase/SendNotification.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/util/BCrypt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/classes/wmdc/crm/util/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/commons-lang3-3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/core-3.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/gcm.server.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/googleauth.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/javase-3.1.1-20150211.225955-15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/joda-time-2.9.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/json-20190722.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/json-simple-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/mariadb-java-client-1.5.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/lib/sqlite-jdbc-3.34.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/WEB-INF/wellmadecrm.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/httprequestinflutter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-ext/fonts/ExtJS.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-ext/fonts/ExtJS.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-ext/fonts/ExtJS.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/font-ext/fonts/ExtJS.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-ExtraBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-ExtraBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-LightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/fonts/OpenSans-SemiboldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/clear_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/disclosure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/disclosure2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/dotgrid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/action.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/add1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/add_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/address_book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/arrow_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/arrow_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/at.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/atom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/attachment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/attachment2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/attachment3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/attachment_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/backspace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/battery_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/battery_low.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/battery_power.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bolt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bolt_side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bookmark1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bookmark2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bookmark_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bookmarks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/briefcase1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/briefcase2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/brightness1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/brightness2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/broadcast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bulb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bullseye1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/bullseye2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/calendar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/calendar_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/card1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/card2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chart1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chart2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chart3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/chat_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/check1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/check2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/check_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/check_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/check_dotted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/circle2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/circle3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/circle4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/clash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud_black_upload1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud_black_upload2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud_bolt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cloud_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/code1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/code2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/code3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compass1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compass2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compass3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compose.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compose1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compose2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compose3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/compose_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/contract.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/cube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/data.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/delete1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/delete_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/delete_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_black_landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_compose1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_compose2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_drawer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/doc_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/docs1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/docs2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/docs_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/docs_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/download1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/download2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/download_screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/eject.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/empty1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/empty2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/equalizer1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/equalizer2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/event_complete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/expand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/favorites.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/favorites1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/favorites_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/fforward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/flickr2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_black_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_delete2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/folder_open2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/forbidden.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/forward_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/globe1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/globe2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/globe_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/headphones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/heart_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/help_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/home2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/hot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/inbox1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/inbox2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/inbox3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/infinite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/infinite2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/info2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/info_plain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/info_plain2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/json.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/layout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/link1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/link2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/link_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/locate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/locate1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/locate2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/locate3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/locate4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/lock_closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/lock_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/look.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/loop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/loop2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/loop_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/magic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mail5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/maps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/minus1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/minus2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/minus_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/minus_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/monitor1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/monitor2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/monitor3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/monitor4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/more2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/mouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/move.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/music1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/music2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/nodes1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/nodes2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/note1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/note2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/note3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/note_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/nuclear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/organize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/outbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/phone1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/phone2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/phone_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/phone_ring1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/phone_ring2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photo3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photo_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photo_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photos1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photos2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/photos4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/pictos-web.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/pictos-web.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/pictos-web.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/pictos-web.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/piechart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/play1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/play2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/play_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/play_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/podcast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/power_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/power_socket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/print2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/quote1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/quote2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/quote_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/quote_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/quote_black3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/refresh1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/refresh2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/refresh3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/refresh5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/reply.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/replytoall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/resize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/resize_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rewind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/right2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rss2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rss_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rss_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/rss_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/screens.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/search1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/search2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/search_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/server.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/servers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/settings_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/shield1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/shield2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/shop1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/shop2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/shuffle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_backforth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_cross.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_leftright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_leftright2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_split.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_switch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sign_uturn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/spaces1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/spaces2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/speedometer1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/speedometer2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/speedometer_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/speedometer_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/stop1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/stop2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/sync.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tabbed_book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tag_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/team.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/team1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/time_repeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/trash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/trash2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/trash_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tree.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/tweak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/twitter1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/twitter2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/up1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/up2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/up_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/upload2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_business.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_fave.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_list2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_remote1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_remove2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/user_send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/video_black1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/video_black2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/volume_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/volume_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/volume_mute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/volume_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/warning_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/warning_dotted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/wifi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/wifi2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/wifi3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/wifi4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pictos/window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/pullarrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/select_mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip2_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip2_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tip_top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/togglebg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/togglemask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/togglethumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/togglethumbbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/togglethumbmask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/trackmask_outer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/images/tree/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-neptune-all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-neptune-all_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-neptune-all_2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-triton-all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-triton-all_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/css/themes/theme-triton-all_2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/jscripts/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/jscripts/extjs6/ext-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/jscripts/extjs6/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/includes/jscripts/sendnotification.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war_exploded/sendnotification.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sqlite_tut.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/wmdc/crm/Login.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/wmdc/crm/Register.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/wmdc/crm/dbutils/InitializeDb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/wmdc/crm/dbutils/TestDb.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war/wellmadecrm_war.war" afterPath="$PROJECT_DIR$/out/artifacts/wellmadecrm_war/wellmadecrm_war.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="d0a4be21-5b92-4da0-887b-31893fc914bb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -456,22 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProcessQr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProcessQr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="113">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetDeviceTokens.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GetDeviceTokens.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
+            <state relative-caret-position="255">
               <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -499,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -621,6 +186,13 @@
               <item name="wellmadecrm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wellmadecrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wellmadecrm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wellmadecrm" type="b2602c69:ProjectViewProjectNode" />
@@ -1348,15 +920,16 @@
       <workItem from="1612922597460" duration="4169000" />
       <workItem from="1612935367242" duration="2692000" />
       <workItem from="1612941505437" duration="305000" />
-      <workItem from="1613013744377" duration="2098000" />
+      <workItem from="1613013744377" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="726481000" />
+    <option name="totallyTimeSpent" value="726684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1373,7 +946,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1441,9 +1014,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,9 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,9 +1076,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,9 +1107,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,9 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,9 +1146,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,9 +1154,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,9 +1169,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1788,17 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386555" expanded="true" signature="1259:1310" ph="SELECT devic... device_tokens" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
@@ -1814,7 +1360,7 @@
     <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1823,10 +1369,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="113">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1613014386555" expanded="true" signature="1259:1310" ph="SELECT devic... device_tokens" />
           </folding>
         </state>
       </provider>
