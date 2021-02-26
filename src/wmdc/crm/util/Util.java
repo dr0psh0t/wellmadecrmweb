@@ -2,15 +2,20 @@ package wmdc.crm.util;
 
 import org.json.JSONObject;
 
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.math.BigInteger;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -140,6 +145,7 @@ public class Util {
                 conn.close();
             }
         } catch (SQLException e) {
+            System.err.println(e.toString());
         }
 
         try {
@@ -147,6 +153,7 @@ public class Util {
                 prepStmt.close();
             }
         } catch (SQLException e) {
+            System.err.println(e.toString());
         }
 
         try {
@@ -154,6 +161,7 @@ public class Util {
                 resultSet.close();
             }
         } catch (SQLException e) {
+            System.err.println(e.toString());
         }
     }
 
@@ -196,6 +204,7 @@ public class Util {
 
         HttpURLConnection conn = null;
         OutputStreamWriter wr;
+        InputStream is = null;
 
         try {
             URL url = new URL("https://fcm.googleapis.com/fcm/send");
@@ -237,7 +246,7 @@ public class Util {
             wr = new OutputStreamWriter(conn.getOutputStream());
             wr.write(json.toString());
             wr.flush();
-            conn.getInputStream();
+            is = conn.getInputStream();
 
         } catch (Exception e) {
             Util.printJsonException(new JSONObject(), e.toString(), out);
@@ -246,6 +255,14 @@ public class Util {
         } finally {
             if (conn != null) {
                 conn.disconnect();
+            }
+
+            try {
+                if (is != null) {
+                    is.close();
+                }
+            } catch (IOException e) {
+                System.err.println(e.toString());
             }
         }
     }
@@ -273,14 +290,27 @@ public class Util {
 
             OutputStream os = conn.getOutputStream();
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+            StringBuilder sBuilder = new StringBuilder();
 
-            writer.write("jn="+params.get("jonum")+"&q="+params.get("qrcode")+"&t="+params.get("timestamp"));
+            for (Map.Entry<String, String> entry : params.entrySet()) {
+                if (sBuilder.length() > 0) {
+                    sBuilder.append("&"+entry.getKey()+"="+entry.getValue());
+                } else {
+                    sBuilder.append(entry.getKey()+"="+entry.getValue());
+                }
+                //System.out.println(entry.getKey()+"\t"+entry.getValue());
+            }
+
+            writer.write(sBuilder.toString());
             writer.flush();
             writer.close();
             os.close();
             conn.connect();
 
-            if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
+            System.out.println("url "+url.toString());
+            System.out.println("responseCode "+conn.getResponseCode());
+
+            //if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 InputStream input = conn.getInputStream();
                 BufferedReader reader = new BufferedReader(new InputStreamReader(input));
                 StringBuilder sb = new StringBuilder();
@@ -296,11 +326,12 @@ public class Util {
                 if (sb.toString().isEmpty()) {
                     return "{\"success\": false, \"reason\": \"No response from server.\"}";
                 } else {
+                    System.out.println("response "+sb.toString());
                     return sb.toString();
                 }
-            } else {
+            /*} else {
                 return "{\"success\": false, \"reason\": \"Request Failed. Try again.\"}";
-            }
+            }*/
         } catch (MalformedURLException | ConnectException | SocketTimeoutException e) {
             Util.displayStackTraceArray(e.getStackTrace(), "wmdc.crm.util",
                     "NetworkException", e.toString());
@@ -321,6 +352,29 @@ public class Util {
             if (conn != null) {
                 conn.disconnect();
             }
+        }
+    }
+
+    public static boolean isHashAuthentic(String key, String msg, String hex) throws UnsupportedEncodingException {
+
+        byte[] hmacSha512 = hmac512(key.getBytes(StandardCharsets.UTF_8), msg.getBytes(StandardCharsets.UTF_8));
+        String hex2 = String.format("%032x", new BigInteger(1, hmacSha512));
+
+        return hex.equals(hex2);
+    }
+
+    private static byte[] hmac512(byte[] secretKey, byte[] message) {
+        byte[] hmac512;
+
+        try {
+            Mac mac = Mac.getInstance("HmacSHA512");
+            SecretKeySpec sks = new SecretKeySpec(secretKey, "HmacSHA512");
+            mac.init(sks);
+            hmac512 = mac.doFinal(message);
+            return hmac512;
+
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to generate hash");
         }
     }
 }

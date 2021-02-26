@@ -58,9 +58,9 @@ public class SaveDeviceToken extends HttpServlet {
                 prepStmt.setString(2, deviceInfo);
                 prepStmt.execute();
 
-                Util.printJsonException(json, "You can now start", out);
+                Util.printSuccessJson(json, "You can now start", out);
             } else {
-                Util.printJsonException(json, "Registered", out);
+                Util.printSuccessJson(json, "Registered", out);
             }
 
             session.invalidate();

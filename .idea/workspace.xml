@@ -3,12 +3,16 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="wellmadecrm:war" />
-      <artifact name="wellmadecrm:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a4be21-5b92-4da0-887b-31893fc914bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wellmadecrm.iml" afterPath="$PROJECT_DIR$/wellmadecrm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wmdc/crm/AuthNewMcrm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wmdc/crm/util/Util.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/util/Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java" afterPath="$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,60 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProcessQr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+      <file leaf-file-name="GetJoWorkStatus.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetDeviceTokens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="-7">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1613014386555" expanded="true" signature="1259:1310" ph="SELECT devic... device_tokens" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wellmadecrm.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wellmadecrm.iml">
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveDeviceToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="333" column="15" lean-forward="true" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-                <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendNotification.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
               </folding>
             </state>
           </provider>
@@ -105,16 +75,18 @@
       <find>mobilecsa.prop</find>
       <find>SaveDevicetoken</find>
       <find>displayStackTraceArray</find>
-      <find>getConnection</find>
       <find>getUrlFromConfig</find>
       <find>logNotification</find>
       <find>wr</find>
       <find>database</find>
       <find>getProperty</find>
       <find>databaseForName</find>
-      <find>getResponse</find>
       <find>success</find>
       <find>send</find>
+      <find>getResponse</find>
+      <find>getConnection</find>
+      <find>Request Failed. Try again</find>
+      <find>Parse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,15 +106,18 @@
         <option value="$PROJECT_DIR$/sqlite_tut.txt" />
         <option value="$PROJECT_DIR$/src/wmdc/crm/dbutils/TestDb.java" />
         <option value="$PROJECT_DIR$/src/wmdc/crm/dbutils/InitializeDb.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/wellmadecrm.properties" />
-        <option value="$PROJECT_DIR$/src/wmdc/crm/util/Util.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" />
         <option value="$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java" />
         <option value="$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java" />
         <option value="$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java" />
-        <option value="$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java" />
         <option value="$PROJECT_DIR$/wellmadecrm.iml" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/AddNewMcrm.java" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/wellmadecrm.properties" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/AuthNewMcrm.java" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java" />
       </list>
     </option>
   </component>
@@ -160,8 +135,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="456" />
-    <option name="width" value="920" />
+    <option name="x" value="474" />
+    <option name="width" value="902" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectId" id="1cQoGOBZdjJI084NEc9QIiMeVRh" />
@@ -181,7 +156,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +188,13 @@
             <path>
               <item name="wellmadecrm" type="b2602c69:ProjectViewProjectNode" />
               <item name="wellmadecrm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wellmadecrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wellmadecrm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,9 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +217,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mobilescsa" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.120937265" />
     <property name="project.structure.side.proportion" value="0.18401015" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -933,12 +915,28 @@
       <workItem from="1612922597460" duration="4169000" />
       <workItem from="1612935367242" duration="2692000" />
       <workItem from="1612941505437" duration="305000" />
-      <workItem from="1613013744377" duration="2847000" />
+      <workItem from="1613013744377" duration="5366000" />
+      <workItem from="1613184855695" duration="11215000" />
+      <workItem from="1613351667306" duration="12969000" />
+      <workItem from="1613377000911" duration="1788000" />
+      <workItem from="1613435637959" duration="13666000" />
+      <workItem from="1613524062723" duration="2553000" />
+      <workItem from="1613543616258" duration="1583000" />
+      <workItem from="1613695629542" duration="2549000" />
+      <workItem from="1613797864444" duration="594000" />
+      <workItem from="1613956572246" duration="4932000" />
+      <workItem from="1613973870479" duration="6154000" />
+      <workItem from="1614040711702" duration="1216000" />
+      <workItem from="1614050880063" duration="2540000" />
+      <workItem from="1614066503343" duration="3518000" />
+      <workItem from="1614126719715" duration="598000" />
+      <workItem from="1614130467018" duration="14019000" />
+      <workItem from="1614298771848" duration="10103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="727230000" />
+    <option name="totallyTimeSpent" value="819746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -954,20 +952,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4648986" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23712948" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" x="383" y="144" width="896" height="454" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27613103" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" x="383" y="144" width="896" height="454" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1013,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1023,34 +1023,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-            <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wmdc/crm/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3990">
           <caret line="282" column="57" lean-forward="false" selection-start-line="282" selection-start-column="57" selection-end-line="282" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1612859105583" expanded="true" signature="3395:3420" ph="SELECT value... configs" />
+            <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,9 +1049,9 @@
         <state relative-caret-position="660">
           <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-            <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1613442171572" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
+            <marker date="1613442171572" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
           </folding>
         </state>
       </provider>
@@ -1072,16 +1062,18 @@
           <caret line="282" column="57" lean-forward="false" selection-start-line="282" selection-start-column="57" selection-end-line="282" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1612859105583" expanded="true" signature="3395:3420" ph="SELECT value... configs" />
+            <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,9 +1082,9 @@
         <state relative-caret-position="765">
           <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-            <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1613442171572" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
+            <marker date="1613442171572" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
           </folding>
         </state>
       </provider>
@@ -1103,16 +1095,18 @@
           <caret line="286" column="54" lean-forward="true" selection-start-line="285" selection-start-column="12" selection-end-line="286" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1612859105583" expanded="true" signature="3395:3420" ph="SELECT value... configs" />
+            <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,7 +1116,7 @@
           <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1612859105583" expanded="true" signature="3395:3420" ph="SELECT value... configs" />
+            <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
           </folding>
         </state>
       </provider>
@@ -1132,34 +1126,40 @@
         <state relative-caret-position="510">
           <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-            <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
+            <element signature="imports" expanded="false" />
+            <marker date="1613442171572" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
+            <marker date="1613442171572" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,11 +1170,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,13 +1208,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/wellmadecrm.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1270,43 +1266,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/dbutils/TestDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqlite_tut.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/dbutils/InitializeDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-885">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/dbutils/TestDb.java" />
+    <entry file="file://$PROJECT_DIR$/sqlite_tut.txt" />
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/dbutils/InitializeDb.java" />
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/Register.java" />
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/Login.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1315,79 +1279,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3252">
-          <caret line="269" column="27" lean-forward="false" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1612859105583" expanded="true" signature="3395:3420" ph="SELECT value... configs" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetNotifications.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/wellmadecrm.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386455" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
-            <marker date="1613014386455" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/ProcessQr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613014386555" expanded="true" signature="1259:1310" ph="SELECT devic... device_tokens" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,7 +1291,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/GetDeviceTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1613014386555" expanded="true" signature="1259:1310" ph="SELECT devic... device_tokens" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SendNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/wellmadecrm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/firebase/SaveDeviceToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1613442171572" expanded="true" signature="1416:1533" ph="SELECT COUNT... device_tokens" />
+            <marker date="1613442171572" expanded="true" signature="1932:1999" ph="INSERT INTO device_tokens... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="333" column="15" lean-forward="true" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1614156076687" expanded="true" signature="3553:3578" ph="SELECT value... configs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/AuthNewMcrm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wmdc/crm/GetJoWorkStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,7 +1396,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18401015" />
               </list>
             </option>
           </splitter-proportions>
